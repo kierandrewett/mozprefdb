@@ -1,0 +1,4003 @@
+{
+  "accessibility.blockautorefresh": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "accessibility.indicator.enabled": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "accessibility.support.url": {
+    "default_value": "https://support.mozilla.org/%LOCALE%/kb/accessibility-services",
+    "last_updated": "92.0"
+  },
+  "accessibility.typeaheadfind": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "accessibility.typeaheadfind.flashBar": {
+    "default_value": 1,
+    "last_updated": "92.0"
+  },
+  "accessibility.typeaheadfind.linksonly": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "accessibility.typeaheadfind.timeout": {
+    "default_value": 5000,
+    "last_updated": "92.0"
+  },
+  "app.feedback.baseURL": {
+    "default_value": "https://ideas.mozilla.org/",
+    "last_updated": "92.0",
+    "description": "Base URL to use for receiving feedback in Firefox."
+  },
+  "app.normandy.api_url": {
+    "default_value": "https://normandy.cdn.mozilla.net/api/v1",
+    "last_updated": "92.0"
+  },
+  "app.normandy.dev_mode": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "app.normandy.enabled": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "app.normandy.first_run": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "app.normandy.last_seen_buildid": {
+    "default_value": "",
+    "last_updated": "92.0"
+  },
+  "app.normandy.logging.level": {
+    "default_value": 50,
+    "last_updated": "92.0"
+  },
+  "app.normandy.onsync_skew_sec": {
+    "default_value": 600,
+    "last_updated": "92.0"
+  },
+  "app.normandy.run_interval_seconds": {
+    "default_value": 21600,
+    "last_updated": "92.0"
+  },
+  "app.normandy.shieldLearnMoreUrl": {
+    "default_value": "https://support.mozilla.org/1/firefox/%VERSION%/%OS%/%LOCALE%/shield",
+    "last_updated": "92.0"
+  },
+  "app.normandy.test-prefs.bool": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "app.normandy.test-prefs.integer": {
+    "default_value": 0,
+    "last_updated": "92.0"
+  },
+  "app.normandy.test-prefs.string": {
+    "default_value": "",
+    "last_updated": "92.0"
+  },
+  "app.shield.optoutstudies.enabled": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "app.support.baseURL": {
+    "default_value": "https://support.mozilla.org/1/firefox/%VERSION%/%OS%/%LOCALE%/",
+    "last_updated": "92.0"
+  },
+  "app.update.BITS.enabled": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "app.update.auto": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "app.update.background.experimental": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "app.update.background.interval": {
+    "default_value": 25200,
+    "last_updated": "92.0"
+  },
+  "app.update.background.loglevel": {
+    "default_value": "error",
+    "last_updated": "92.0"
+  },
+  "app.update.background.scheduling.enabled": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "app.update.background.timeoutSec": {
+    "default_value": 600,
+    "last_updated": "92.0"
+  },
+  "app.update.backgroundMaxErrors": {
+    "default_value": 10,
+    "last_updated": "92.0"
+  },
+  "app.update.checkInstallTime": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "app.update.download.promptMaxAttempts": {
+    "default_value": 2,
+    "last_updated": "92.0"
+  },
+  "app.update.elevation.promptMaxAttempts": {
+    "default_value": 2,
+    "last_updated": "92.0"
+  },
+  "app.update.langpack.enabled": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "app.update.link.updateAvailableWhatsNew": {
+    "default_value": "update-available-whats-new",
+    "last_updated": "92.0"
+  },
+  "app.update.link.updateManualWhatsNew": {
+    "default_value": "update-manual-whats-new",
+    "last_updated": "92.0"
+  },
+  "app.update.log": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "app.update.log.file": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "app.update.notifyDuringDownload": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "app.update.service.enabled": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "app.update.staging.enabled": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "app.update.timerFirstInterval": {
+    "default_value": 30000,
+    "last_updated": "92.0"
+  },
+  "app.update.timerMinimumDelay": {
+    "default_value": 120,
+    "last_updated": "92.0"
+  },
+  "breakpad.reportURL": {
+    "default_value": "https://crash-stats.mozilla.org/report/index/",
+    "last_updated": "92.0"
+  },
+  "browser.aboutConfig.showWarning": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "browser.aboutwelcome.enabled": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "browser.aboutwelcome.screens": {
+    "default_value": "",
+    "last_updated": "92.0"
+  },
+  "browser.aboutwelcome.skipFocus": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "browser.altClickSave": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "browser.backspace_action": {
+    "default_value": 2,
+    "last_updated": "92.0"
+  },
+  "browser.bookmarks.autoExportHTML": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "browser.bookmarks.defaultLocation": {
+    "default_value": "toolbar",
+    "last_updated": "92.0"
+  },
+  "browser.bookmarks.editDialog.firstEditField": {
+    "default_value": "namePicker",
+    "last_updated": "92.0"
+  },
+  "browser.bookmarks.editDialog.maxRecentFolders": {
+    "default_value": 7,
+    "last_updated": "92.0"
+  },
+  "browser.bookmarks.editDialog.showForNewBookmarks": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "browser.bookmarks.max_backups": {
+    "default_value": 15,
+    "last_updated": "92.0"
+  },
+  "browser.bookmarks.openInTabClosesMenu": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "browser.chrome.site_icons": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "browser.compactmode.show": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "browser.contentblocking.cfr-milestone.enabled": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "browser.contentblocking.cfr-milestone.milestone-achieved": {
+    "default_value": 0,
+    "last_updated": "92.0"
+  },
+  "browser.contentblocking.cfr-milestone.milestones": {
+    "default_value": "[1000, 5000, 10000, 25000, 50000, 100000, 250000, 314159, 500000, 750000, 1000000, 1250000, 1500000, 1750000, 2000000, 2250000, 2500000, 8675309]",
+    "last_updated": "92.0"
+  },
+  "browser.contentblocking.cryptomining.preferences.ui.enabled": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "browser.contentblocking.customBlockList.preferences.ui.enabled": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "browser.contentblocking.database.enabled": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "browser.contentblocking.features.strict": {
+    "default_value": "tp,tpPrivate,cookieBehavior5,cookieBehaviorPBM5,cm,fp,stp,lvl2",
+    "last_updated": "92.0"
+  },
+  "browser.contentblocking.fingerprinting.preferences.ui.enabled": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "browser.contentblocking.reject-and-isolate-cookies.preferences.ui.enabled": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "browser.contentblocking.report.cookie.url": {
+    "default_value": "https://support.mozilla.org/1/firefox/%VERSION%/%OS%/%LOCALE%/cross-site-tracking-report",
+    "last_updated": "92.0"
+  },
+  "browser.contentblocking.report.cryptominer.url": {
+    "default_value": "https://support.mozilla.org/1/firefox/%VERSION%/%OS%/%LOCALE%/cryptominers-report",
+    "last_updated": "92.0"
+  },
+  "browser.contentblocking.report.endpoint_url": {
+    "default_value": "https://monitor.firefox.com/user/breach-stats?includeResolved=true",
+    "last_updated": "92.0"
+  },
+  "browser.contentblocking.report.fingerprinter.url": {
+    "default_value": "https://support.mozilla.org/1/firefox/%VERSION%/%OS%/%LOCALE%/fingerprinters-report",
+    "last_updated": "92.0"
+  },
+  "browser.contentblocking.report.hide_vpn_banner": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "browser.contentblocking.report.lockwise.enabled": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "browser.contentblocking.report.lockwise.how_it_works.url": {
+    "default_value": "https://support.mozilla.org/1/firefox/%VERSION%/%OS%/%LOCALE%/password-manager-report",
+    "last_updated": "92.0"
+  },
+  "browser.contentblocking.report.manage_devices.url": {
+    "default_value": "https://accounts.firefox.com/settings/clients",
+    "last_updated": "92.0"
+  },
+  "browser.contentblocking.report.mobile-android.url": {
+    "default_value": "https://play.google.com/store/apps/details?id=org.mozilla.firefox&referrer=utm_source%3Dprotection_report%26utm_content%3Dmobile_promotion",
+    "last_updated": "92.0"
+  },
+  "browser.contentblocking.report.mobile-ios.url": {
+    "default_value": "https://apps.apple.com/app/firefox-private-safe-browser/id989804926",
+    "last_updated": "92.0"
+  },
+  "browser.contentblocking.report.monitor.enabled": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "browser.contentblocking.report.monitor.home_page_url": {
+    "default_value": "https://monitor.firefox.com/user/dashboard",
+    "last_updated": "92.0"
+  },
+  "browser.contentblocking.report.monitor.how_it_works.url": {
+    "default_value": "https://monitor.firefox.com/about",
+    "last_updated": "92.0"
+  },
+  "browser.contentblocking.report.monitor.preferences_url": {
+    "default_value": "https://monitor.firefox.com/user/preferences",
+    "last_updated": "92.0"
+  },
+  "browser.contentblocking.report.monitor.sign_in_url": {
+    "default_value": "https://monitor.firefox.com/oauth/init?entrypoint=protection_report_monitor&utm_source=about-protections&email=",
+    "last_updated": "92.0"
+  },
+  "browser.contentblocking.report.monitor.url": {
+    "default_value": "https://monitor.firefox.com/?entrypoint=protection_report_monitor&utm_source=about-protections",
+    "last_updated": "92.0"
+  },
+  "browser.contentblocking.report.proxy.enabled": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "browser.contentblocking.report.proxy_extension.url": {
+    "default_value": "https://fpn.firefox.com/browser?utm_source=firefox-desktop&utm_medium=referral&utm_campaign=about-protections&utm_content=about-protections",
+    "last_updated": "92.0"
+  },
+  "browser.contentblocking.report.show_mobile_app": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "browser.contentblocking.report.social.url": {
+    "default_value": "https://support.mozilla.org/1/firefox/%VERSION%/%OS%/%LOCALE%/social-media-tracking-report",
+    "last_updated": "92.0"
+  },
+  "browser.contentblocking.report.tracker.url": {
+    "default_value": "https://support.mozilla.org/1/firefox/%VERSION%/%OS%/%LOCALE%/tracking-content-report",
+    "last_updated": "92.0"
+  },
+  "browser.contentblocking.report.vpn-android.url": {
+    "default_value": "https://play.google.com/store/apps/details?id=org.mozilla.firefox.vpn&referrer=utm_source%3Dfirefox-browser%26utm_medium%3Dfirefox-browser%26utm_campaign%3Dabout-protections-mobile-vpn%26anid%3D--",
+    "last_updated": "92.0"
+  },
+  "browser.contentblocking.report.vpn-ios.url": {
+    "default_value": "https://apps.apple.com/us/app/firefox-private-network-vpn/id1489407738",
+    "last_updated": "92.0"
+  },
+  "browser.contentblocking.report.vpn-promo.url": {
+    "default_value": "https://vpn.mozilla.org/?utm_source=firefox-browser&utm_medium=firefox-browser&utm_campaign=about-protections-top-promo",
+    "last_updated": "92.0"
+  },
+  "browser.contentblocking.report.vpn.enabled": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "browser.contentblocking.report.vpn.url": {
+    "default_value": "https://vpn.mozilla.org/?utm_source=firefox-browser&utm_medium=firefox-browser&utm_campaign=about-protections-card",
+    "last_updated": "92.0"
+  },
+  "browser.contentblocking.report.vpn_platforms": {
+    "default_value": "win,mac,linux",
+    "last_updated": "92.0"
+  },
+  "browser.contentblocking.report.vpn_regions": {
+    "default_value": "us,ca,nz,sg,my,gb,de,fr",
+    "last_updated": "92.0"
+  },
+  "browser.contentblocking.report.vpn_sub_id": {
+    "default_value": "sub_HrfCZF7VPHzZkA",
+    "last_updated": "92.0"
+  },
+  "browser.contentblocking.reportBreakage.url": {
+    "default_value": "https://tracking-protection-issues.herokuapp.com/new",
+    "last_updated": "92.0"
+  },
+  "browser.contentblocking.state-partitioning.mvp.ui.enabled": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "browser.crashReports.unsubmittedCheck.autoSubmit2": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "browser.crashReports.unsubmittedCheck.chancesUntilSuppress": {
+    "default_value": 4,
+    "last_updated": "92.0"
+  },
+  "browser.crashReports.unsubmittedCheck.enabled": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "browser.ctrlTab.sortByRecentlyUsed": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "browser.dictionaries.download.url": {
+    "default_value": "https://addons.mozilla.org/%LOCALE%/firefox/language-tools/",
+    "last_updated": "92.0"
+  },
+  "browser.discovery.containers.enabled": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "browser.discovery.enabled": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "browser.discovery.sites": {
+    "default_value": "addons.mozilla.org",
+    "last_updated": "92.0"
+  },
+  "browser.download.alwaysOpenInSystemViewerContextMenuItem": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "browser.download.animateNotifications": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "browser.download.autohideButton": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "browser.download.folderList": {
+    "default_value": 1,
+    "last_updated": "92.0"
+  },
+  "browser.download.loglevel": {
+    "default_value": "Error",
+    "last_updated": "92.0"
+  },
+  "browser.download.manager.addToRecentDocs": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "browser.download.manager.resumeOnWakeDelay": {
+    "default_value": 10000,
+    "last_updated": "92.0"
+  },
+  "browser.download.openInSystemViewerContextMenuItem": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "browser.download.panel.shown": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "browser.download.saveLinkAsFilenameTimeout": {
+    "default_value": 4000,
+    "last_updated": "92.0"
+  },
+  "browser.download.useDownloadDir": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "browser.download.viewableInternally.enabledTypes": {
+    "default_value": "xml,svg,webp,avif,jxl",
+    "last_updated": "92.0"
+  },
+  "browser.eme.ui.enabled": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "browser.engagement.ctrlTab.has-used": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "browser.engagement.downloads-button.has-used": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "browser.engagement.fxa-toolbar-menu-button.has-used": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "browser.engagement.home-button.has-used": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "browser.engagement.library-button.has-used": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "browser.engagement.recent_visited_origins.expiry": {
+    "default_value": 86400,
+    "last_updated": "92.0"
+  },
+  "browser.engagement.sidebar-button.has-used": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "browser.esedbreader.loglevel": {
+    "default_value": "Error",
+    "last_updated": "92.0"
+  },
+  "browser.fixup.dns_first_for_single_words": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "browser.fixup.domainsuffixwhitelist.example": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "browser.fixup.domainsuffixwhitelist.internal": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "browser.fixup.domainsuffixwhitelist.invalid": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "browser.fixup.domainsuffixwhitelist.local": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "browser.fixup.domainsuffixwhitelist.localhost": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "browser.fixup.domainsuffixwhitelist.test": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "browser.fixup.domainwhitelist.localhost": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "browser.flash-protected-mode-flip.done": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "browser.flash-protected-mode-flip.enable": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "browser.fullscreen.autohide": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "browser.geolocation.warning.infoURL": {
+    "default_value": "https://www.mozilla.org/%LOCALE%/firefox/geolocation/",
+    "last_updated": "92.0"
+  },
+  "browser.gesture.pinch.in": {
+    "default_value": "",
+    "last_updated": "92.0"
+  },
+  "browser.gesture.pinch.in.shift": {
+    "default_value": "",
+    "last_updated": "92.0"
+  },
+  "browser.gesture.pinch.latched": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "browser.gesture.pinch.out": {
+    "default_value": "",
+    "last_updated": "92.0"
+  },
+  "browser.gesture.pinch.out.shift": {
+    "default_value": "",
+    "last_updated": "92.0"
+  },
+  "browser.gesture.pinch.threshold": {
+    "default_value": 25,
+    "last_updated": "92.0"
+  },
+  "browser.gesture.swipe.down": {
+    "default_value": "cmd_scrollBottom",
+    "last_updated": "92.0"
+  },
+  "browser.gesture.swipe.left": {
+    "default_value": "Browser:BackOrBackDuplicate",
+    "last_updated": "92.0"
+  },
+  "browser.gesture.swipe.right": {
+    "default_value": "Browser:ForwardOrForwardDuplicate",
+    "last_updated": "92.0"
+  },
+  "browser.gesture.swipe.up": {
+    "default_value": "cmd_scrollTop",
+    "last_updated": "92.0"
+  },
+  "browser.gesture.tap": {
+    "default_value": "",
+    "last_updated": "92.0"
+  },
+  "browser.gesture.twist.end": {
+    "default_value": "cmd_gestureRotateEnd",
+    "last_updated": "92.0"
+  },
+  "browser.gesture.twist.latched": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "browser.gesture.twist.left": {
+    "default_value": "cmd_gestureRotateLeft",
+    "last_updated": "92.0"
+  },
+  "browser.gesture.twist.right": {
+    "default_value": "cmd_gestureRotateRight",
+    "last_updated": "92.0"
+  },
+  "browser.gesture.twist.threshold": {
+    "default_value": 0,
+    "last_updated": "92.0"
+  },
+  "browser.helperApps.deleteTempFileOnExit": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "browser.helperApps.showOpenOptionForPdfJS": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "browser.helperApps.showOpenOptionForViewableInternally": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "browser.hiddenWindowChromeURL": {
+    "default_value": "chrome://browser/content/hiddenWindowMac.xhtml",
+    "last_updated": "92.0"
+  },
+  "browser.history_swipe_animation.disabled": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "browser.laterrun.enabled": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "browser.link.open_newwindow": {
+    "default_value": 3,
+    "last_updated": "92.0"
+  },
+  "browser.link.open_newwindow.disabled_in_fullscreen": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "browser.link.open_newwindow.override.external": {
+    "default_value": -1,
+    "last_updated": "92.0"
+  },
+  "browser.link.open_newwindow.restriction": {
+    "default_value": 2,
+    "last_updated": "92.0"
+  },
+  "browser.menu.showCharacterEncoding": {
+    "default_value": "chrome://browser/locale/browser.properties",
+    "last_updated": "92.0"
+  },
+  "browser.menu.showViewImageInfo": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "browser.messaging-system.whatsNewPanel.enabled": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "browser.migrate.chrome.history.limit": {
+    "default_value": 2000,
+    "last_updated": "92.0"
+  },
+  "browser.migrate.chrome.history.maxAgeInDays": {
+    "default_value": 180,
+    "last_updated": "92.0"
+  },
+  "browser.migrate.showBookmarksToolbarAfterMigration": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "browser.newtab.preload": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "browser.newtabpage.activity-stream.asrouter.providers.cfr": {
+    "default_value": "{\"id\":\"cfr\": \"enabled\":true,\"type\":\"remote-settings\",\"bucket\":\"cfr\",\"updateCycleInMs\":3600000}",
+    "last_updated": "92.0"
+  },
+  "browser.newtabpage.activity-stream.asrouter.providers.message-groups": {
+    "default_value": "{\"id\":\"message-groups\": \"enabled\":true,\"type\":\"remote-settings\",\"bucket\":\"message-groups\",\"updateCycleInMs\":3600000}",
+    "last_updated": "92.0"
+  },
+  "browser.newtabpage.activity-stream.asrouter.providers.messaging-experiments": {
+    "default_value": "{\"id\":\"messaging-experiments\": \"enabled\":true,\"type\":\"remote-experiments\",\"messageGroups\":[\"cfr\",\"whats-new-panel\",\"moments-page\",\"cfr-fxa\",\"aboutwelcome\",\"infobar\"],\"updateCycleInMs\":3600000}",
+    "last_updated": "92.0"
+  },
+  "browser.newtabpage.activity-stream.asrouter.providers.snippets": {
+    "default_value": "{\"id\":\"snippets\": \"enabled\":false,\"type\":\"remote\",\"url\":\"https://snippets.cdn.mozilla.net/%STARTPAGE_VERSION%/%NAME%/%VERSION%/%APPBUILDID%/%BUILD_TARGET%/%LOCALE%/%CHANNEL%/%OS_VERSION%/%DISTRIBUTION%/%DISTRIBUTION_VERSION%/\",\"updateCycleInMs\":14400000}",
+    "last_updated": "92.0"
+  },
+  "browser.newtabpage.activity-stream.asrouter.providers.whats-new-panel": {
+    "default_value": "{\"id\":\"whats-new-panel\": \"enabled\":true,\"type\":\"remote-settings\",\"bucket\":\"whats-new-panel\",\"updateCycleInMs\":3600000}",
+    "last_updated": "92.0"
+  },
+  "browser.newtabpage.activity-stream.asrouter.useRemoteL10n": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "browser.newtabpage.activity-stream.asrouter.userprefs.cfr.addons": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "browser.newtabpage.activity-stream.asrouter.userprefs.cfr.features": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "browser.newtabpage.activity-stream.customizationMenu.enabled": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "browser.newtabpage.activity-stream.debug": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "browser.newtabpage.activity-stream.discoverystream.enabled": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "browser.newtabpage.activity-stream.discoverystream.hardcoded-basic-layout": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "browser.newtabpage.activity-stream.discoverystream.isCollectionDismissible": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "browser.newtabpage.activity-stream.discoverystream.locale-list-config": {
+    "default_value": "",
+    "last_updated": "92.0"
+  },
+  "browser.newtabpage.activity-stream.discoverystream.personalization.enabled": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "browser.newtabpage.activity-stream.discoverystream.personalization.modelKeys": {
+    "default_value": "nb_model_arts_and_entertainment, nb_model_autos_and_vehicles, nb_model_beauty_and_fitness, nb_model_blogging_resources_and_services, nb_model_books_and_literature, nb_model_business_and_industrial, nb_model_computers_and_electronics, nb_model_finance, nb_model_food_and_drink, nb_model_games, nb_model_health, nb_model_hobbies_and_leisure, nb_model_home_and_garden, nb_model_internet_and_telecom, nb_model_jobs_and_education, nb_model_law_and_government, nb_model_online_communities, nb_model_people_and_society, nb_model_pets_and_animals, nb_model_real_estate, nb_model_reference, nb_model_science, nb_model_shopping, nb_model_sports, nb_model_travel",
+    "last_updated": "92.0"
+  },
+  "browser.newtabpage.activity-stream.discoverystream.recs.personalized": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "browser.newtabpage.activity-stream.discoverystream.region-basic-config": {
+    "default_value": "",
+    "last_updated": "92.0"
+  },
+  "browser.newtabpage.activity-stream.discoverystream.region-spocs-config": {
+    "default_value": "US,CA,DE,GB",
+    "last_updated": "92.0"
+  },
+  "browser.newtabpage.activity-stream.discoverystream.region-stories-block": {
+    "default_value": "FR",
+    "last_updated": "92.0"
+  },
+  "browser.newtabpage.activity-stream.discoverystream.region-stories-config": {
+    "default_value": "US,DE,CA,GB,IE,CH,AT,BE,IN",
+    "last_updated": "92.0"
+  },
+  "browser.newtabpage.activity-stream.discoverystream.spoc-positions": {
+    "default_value": "2,4,11,20",
+    "last_updated": "92.0"
+  },
+  "browser.newtabpage.activity-stream.discoverystream.spocs-endpoint": {
+    "default_value": "",
+    "last_updated": "92.0"
+  },
+  "browser.newtabpage.activity-stream.discoverystream.spocs-endpoint-query": {
+    "default_value": "",
+    "last_updated": "92.0"
+  },
+  "browser.newtabpage.activity-stream.discoverystream.spocs.personalized": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "browser.newtabpage.activity-stream.discoverystream.sponsored-collections.enabled": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "browser.newtabpage.activity-stream.feeds.section.topstories": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "browser.newtabpage.activity-stream.fxaccounts.endpoint": {
+    "default_value": "https://accounts.firefox.com/",
+    "last_updated": "92.0"
+  },
+  "browser.newtabpage.activity-stream.improvesearch.handoffToAwesomebar": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "browser.newtabpage.activity-stream.improvesearch.topSiteSearchShortcuts": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "browser.newtabpage.activity-stream.logowordmark.alwaysVisible": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "browser.newtabpage.activity-stream.newNewtabExperience.colors": {
+    "default_value": "#0090ED,#FF4F5F,#2AC3A2,#FF7139,#A172FF,#FFA437,#FF2A8A",
+    "last_updated": "92.0"
+  },
+  "browser.newtabpage.activity-stream.newNewtabExperience.enabled": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "browser.overlink-delay": {
+    "default_value": 80,
+    "last_updated": "92.0"
+  },
+  "browser.partnerlink.attributionURL": {
+    "default_value": "https://topsites.services.mozilla.com/cid/",
+    "last_updated": "92.0"
+  },
+  "browser.partnerlink.campaign.topsites": {
+    "default_value": "amzn_2020_a1",
+    "last_updated": "92.0"
+  },
+  "browser.ping-centre.log": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "browser.ping-centre.telemetry": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "browser.preferences.defaultPerformanceSettings.enabled": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "browser.preferences.experimental": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "browser.preferences.experimental.hidden": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "browser.preferences.instantApply": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "browser.preferences.search": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "browser.privatebrowsing.infoBody": {
+    "default_value": "",
+    "last_updated": "92.0"
+  },
+  "browser.privatebrowsing.infoEnabled": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "browser.privatebrowsing.infoIcon": {
+    "default_value": "",
+    "last_updated": "92.0"
+  },
+  "browser.privatebrowsing.infoLinkText": {
+    "default_value": "",
+    "last_updated": "92.0"
+  },
+  "browser.privatebrowsing.infoLinkUrl": {
+    "default_value": "",
+    "last_updated": "92.0"
+  },
+  "browser.privatebrowsing.infoTitle": {
+    "default_value": "",
+    "last_updated": "92.0"
+  },
+  "browser.privatebrowsing.infoTitleEnabled": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "browser.privatebrowsing.promoEnabled": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "browser.privatebrowsing.promoLinkText": {
+    "default_value": "",
+    "last_updated": "92.0"
+  },
+  "browser.privatebrowsing.promoLinkUrl": {
+    "default_value": "",
+    "last_updated": "92.0"
+  },
+  "browser.privatebrowsing.promoTitle": {
+    "default_value": "",
+    "last_updated": "92.0"
+  },
+  "browser.privatebrowsing.promoTitleEnabled": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "browser.privatebrowsing.vpnpromourl": {
+    "default_value": "https://vpn.mozilla.org/?utm_source=firefox-browser&utm_medium=firefox-%CHANNEL%-browser&utm_campaign=private-browsing-vpn-link",
+    "last_updated": "92.0"
+  },
+  "browser.protections_panel.enabled": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "browser.protections_panel.infoMessage.seen": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "browser.proton.toolbar.version": {
+    "default_value": 0,
+    "last_updated": "92.0"
+  },
+  "browser.quitShortcut.disabled": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "browser.search.context.loadInBackground": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "browser.search.hiddenOneOffs": {
+    "default_value": "",
+    "last_updated": "92.0"
+  },
+  "browser.search.openintab": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "browser.search.searchEnginesURL": {
+    "default_value": "https://addons.mozilla.org/%LOCALE%/firefox/search-engines/",
+    "last_updated": "92.0"
+  },
+  "browser.search.separatePrivateDefault.ui.banner.max": {
+    "default_value": 0,
+    "last_updated": "92.0"
+  },
+  "browser.search.separatePrivateDefault.ui.enabled": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "browser.search.widget.inNavBar": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "browser.send_pings": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "browser.sessionhistory.max_entries": {
+    "default_value": 50,
+    "last_updated": "92.0"
+  },
+  "browser.sessionstore.cleanup.forget_closed_after": {
+    "default_value": 1209600000,
+    "last_updated": "92.0"
+  },
+  "browser.sessionstore.debug": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "browser.sessionstore.idleDelay": {
+    "default_value": 180000,
+    "last_updated": "92.0"
+  },
+  "browser.sessionstore.interval.idle": {
+    "default_value": 3600000,
+    "last_updated": "92.0"
+  },
+  "browser.sessionstore.max_resumed_crashes": {
+    "default_value": 1,
+    "last_updated": "92.0"
+  },
+  "browser.sessionstore.max_serialize_back": {
+    "default_value": 10,
+    "last_updated": "92.0"
+  },
+  "browser.sessionstore.max_serialize_forward": {
+    "default_value": -1,
+    "last_updated": "92.0"
+  },
+  "browser.sessionstore.max_tabs_undo": {
+    "default_value": 25,
+    "last_updated": "92.0"
+  },
+  "browser.sessionstore.max_windows_undo": {
+    "default_value": 3,
+    "last_updated": "92.0"
+  },
+  "browser.sessionstore.max_write_failures": {
+    "default_value": 5,
+    "last_updated": "92.0"
+  },
+  "browser.sessionstore.privacy_level": {
+    "default_value": 0,
+    "last_updated": "92.0"
+  },
+  "browser.sessionstore.restore_hidden_tabs": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "browser.sessionstore.restore_on_demand": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "browser.sessionstore.restore_pinned_tabs_on_demand": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "browser.sessionstore.restore_tabs_lazily": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "browser.sessionstore.resume_from_crash": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "browser.sessionstore.resume_session_once": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "browser.sessionstore.resuming_after_os_restart": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "browser.sessionstore.upgradeBackup.latestBuildID": {
+    "default_value": "",
+    "last_updated": "92.0"
+  },
+  "browser.sessionstore.upgradeBackup.maxUpgradeBackups": {
+    "default_value": 3,
+    "last_updated": "92.0"
+  },
+  "browser.sessionstore.warnOnQuit": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "browser.shell.checkDefaultBrowser": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "browser.shell.defaultBrowserCheckCount": {
+    "default_value": 0,
+    "last_updated": "92.0"
+  },
+  "browser.shell.didSkipDefaultBrowserCheckOnFirstRun": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "browser.shell.mostRecentDateSetAsDefault": {
+    "default_value": "",
+    "last_updated": "92.0"
+  },
+  "browser.shell.setDefaultBrowserUserChoice": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "browser.shell.shortcutFavicons": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "browser.shell.skipDefaultBrowserCheckOnFirstRun": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "browser.ssl_override_behavior": {
+    "default_value": 2,
+    "last_updated": "92.0"
+  },
+  "browser.startup.blankWindow": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "browser.startup.firstrunSkipsHomepage": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "browser.startup.homepage": {
+    "default_value": "about:home",
+    "last_updated": "92.0"
+  },
+  "browser.startup.homepage.abouthome_cache.enabled": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "browser.startup.homepage.abouthome_cache.loglevel": {
+    "default_value": "Warn",
+    "last_updated": "92.0"
+  },
+  "browser.startup.page": {
+    "default_value": 1,
+    "last_updated": "92.0"
+  },
+  "browser.startup.preXulSkeletonUI": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "browser.startup.upgradeDialog.enabled": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "browser.suppress_first_window_animation": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "browser.tabs.allowTabDetach": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "browser.tabs.closeTabByDblclick": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "browser.tabs.closeWindowWithLastTab": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "browser.tabs.crashReporting.includeURL": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "browser.tabs.crashReporting.sendReport": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "browser.tabs.delayHidingAudioPlayingIconMS": {
+    "default_value": 3000,
+    "last_updated": "92.0"
+  },
+  "browser.tabs.drawInTitlebar": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "browser.tabs.insertAfterCurrent": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "browser.tabs.insertRelatedAfterCurrent": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "browser.tabs.loadBookmarksInBackground": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "browser.tabs.loadBookmarksInTabs": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "browser.tabs.loadDivertedInBackground": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "browser.tabs.loadInBackground": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "browser.tabs.maxOpenBeforeWarn": {
+    "default_value": 15,
+    "last_updated": "92.0"
+  },
+  "browser.tabs.opentabfor.middleclick": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "browser.tabs.remote.autostart": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "browser.tabs.remote.desktopbehavior": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "browser.tabs.remote.enforceRemoteTypeRestrictions": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "browser.tabs.remote.separatePrivilegedContentProcess": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "browser.tabs.remote.separatePrivilegedMozillaWebContentProcess": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "browser.tabs.remote.tabCacheSize": {
+    "default_value": 0,
+    "last_updated": "92.0"
+  },
+  "browser.tabs.remote.warmup.enabled": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "browser.tabs.remote.warmup.maxTabs": {
+    "default_value": 3,
+    "last_updated": "92.0"
+  },
+  "browser.tabs.remote.warmup.unloadDelayMs": {
+    "default_value": 2000,
+    "last_updated": "92.0"
+  },
+  "browser.tabs.secondaryTextUnsupportedLocales": {
+    "default_value": "ar,bn,bo,ckb,fa,gu,he,hi,ja,km,kn,ko,lo,mr,my,ne,pa,si,ta,te,th,ur,zh",
+    "last_updated": "92.0"
+  },
+  "browser.tabs.selectOwnerOnClose": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "browser.tabs.tabClipWidth": {
+    "default_value": 140,
+    "last_updated": "92.0"
+  },
+  "browser.tabs.tabMinWidth": {
+    "default_value": 76,
+    "last_updated": "92.0"
+  },
+  "browser.tabs.tabmanager.enabled": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "browser.tabs.tooltipsShowPidAndActiveness": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "browser.tabs.unloadOnLowMemory": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "browser.tabs.warnOnClose": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "browser.tabs.warnOnCloseOtherTabs": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "browser.tabs.warnOnOpen": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "browser.taskbar.lists.enabled": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "browser.taskbar.lists.frequent.enabled": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "browser.taskbar.lists.maxListItemCount": {
+    "default_value": 7,
+    "last_updated": "92.0"
+  },
+  "browser.taskbar.lists.recent.enabled": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "browser.taskbar.lists.refreshInSeconds": {
+    "default_value": 120,
+    "last_updated": "92.0"
+  },
+  "browser.taskbar.lists.tasks.enabled": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "browser.taskbar.previews.cachetime": {
+    "default_value": 5,
+    "last_updated": "92.0"
+  },
+  "browser.taskbar.previews.enable": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "browser.taskbar.previews.max": {
+    "default_value": 20,
+    "last_updated": "92.0"
+  },
+  "browser.toolbars.bookmarks.2h2020": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "browser.toolbars.bookmarks.showOtherBookmarks": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "browser.toolbars.bookmarks.visibility": {
+    "default_value": "newtab",
+    "last_updated": "92.0"
+  },
+  "browser.toolbars.keyboard_navigation": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "browser.topsites.contile.enabled": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "browser.topsites.contile.endpoint": {
+    "default_value": "https://contile.services.mozilla.com/v1/tiles",
+    "last_updated": "92.0"
+  },
+  "browser.topsites.useRemoteSetting": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "browser.touchmode.auto": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "browser.translation.detectLanguage": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "browser.translation.engine": {
+    "default_value": "Google",
+    "last_updated": "92.0"
+  },
+  "browser.translation.neverForLanguages": {
+    "default_value": "",
+    "last_updated": "92.0"
+  },
+  "browser.translation.ui.show": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "browser.uiCustomization.debug": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "browser.uiCustomization.state": {
+    "default_value": "",
+    "last_updated": "92.0"
+  },
+  "browser.uidensity": {
+    "default_value": 0,
+    "last_updated": "92.0"
+  },
+  "browser.uitour.enabled": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "browser.uitour.loglevel": {
+    "default_value": "Error",
+    "last_updated": "92.0"
+  },
+  "browser.uitour.requireSecure": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "browser.uitour.surveyDuration": {
+    "default_value": 7200,
+    "last_updated": "92.0"
+  },
+  "browser.uitour.themeOrigin": {
+    "default_value": "https://addons.mozilla.org/%LOCALE%/firefox/themes/",
+    "last_updated": "92.0"
+  },
+  "browser.uitour.url": {
+    "default_value": "https://www.mozilla.org/%LOCALE%/firefox/%VERSION%/tour/",
+    "last_updated": "92.0"
+  },
+  "browser.urlbar.accessibility.tabToSearch.announceResults": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "browser.urlbar.autoFill": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "browser.urlbar.ctrlCanonizesURLs": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "browser.urlbar.decodeURLsOnCopy": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "browser.urlbar.dnsResolveSingleWordsAfterSearch": {
+    "default_value": 1,
+    "last_updated": "92.0"
+  },
+  "browser.urlbar.eventTelemetry.enabled": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "browser.urlbar.experimental.firefoxSuggestLabels.enabled": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "browser.urlbar.extension.timeout": {
+    "default_value": 400,
+    "last_updated": "92.0"
+  },
+  "browser.urlbar.filter.javascript": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "browser.urlbar.keepPanelOpenDuringImeComposition": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "browser.urlbar.loglevel": {
+    "default_value": "Error",
+    "last_updated": "92.0"
+  },
+  "browser.urlbar.maxCharsForSearchSuggestions": {
+    "default_value": 100,
+    "last_updated": "92.0"
+  },
+  "browser.urlbar.maxHistoricalSearchSuggestions": {
+    "default_value": 2,
+    "last_updated": "92.0"
+  },
+  "browser.urlbar.maxRichResults": {
+    "default_value": 10,
+    "last_updated": "92.0"
+  },
+  "browser.urlbar.openintab": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "browser.urlbar.quicksuggest.enabled": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "browser.urlbar.quicksuggest.nonSponsoredIndex": {
+    "default_value": -1,
+    "last_updated": "92.0"
+  },
+  "browser.urlbar.quicksuggest.shouldShowOnboardingDialog": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "browser.urlbar.quicksuggest.showOnboardingDialogAfterNRestarts": {
+    "default_value": 2,
+    "last_updated": "92.0"
+  },
+  "browser.urlbar.quicksuggest.sponsoredIndex": {
+    "default_value": -1,
+    "last_updated": "92.0"
+  },
+  "browser.urlbar.richSuggestions.tail": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "browser.urlbar.shortcuts.bookmarks": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "browser.urlbar.shortcuts.history": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "browser.urlbar.shortcuts.tabs": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "browser.urlbar.showSearchSuggestionsFirst": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "browser.urlbar.speculativeConnect.enabled": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "browser.urlbar.sponsoredTopSites": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "browser.urlbar.suggest.bookmark": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "browser.urlbar.suggest.calculator": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "browser.urlbar.suggest.engines": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "browser.urlbar.suggest.history": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "browser.urlbar.suggest.openpage": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "browser.urlbar.suggest.quicksuggest": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "browser.urlbar.suggest.searches": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "browser.urlbar.suggest.topsites": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "browser.urlbar.switchTabs.adoptIntoActiveWindow": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "browser.urlbar.trimURLs": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "browser.urlbar.unitConversion.enabled": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "browser.urlbar.update2.emptySearchBehavior": {
+    "default_value": 0,
+    "last_updated": "92.0"
+  },
+  "browser.warnOnQuit": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "browser.xr.warning.infoURL": {
+    "default_value": "https://www.mozilla.org/%LOCALE%/firefox/xr/",
+    "last_updated": "92.0"
+  },
+  "browser.xul.error_pages.expert_bad_cert": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "browser.xul.error_pages.show_safe_browsing_details_on_load": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "browser.zoom.full": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "browser.zoom.siteSpecific": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "browser.zoom.updateBackgroundTabs": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "corroborator.enabled": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "default-browser-agent.enabled": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "devtools.aboutdebugging.collapsibilities.installedExtension": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "devtools.aboutdebugging.collapsibilities.otherWorker": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "devtools.aboutdebugging.collapsibilities.serviceWorker": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "devtools.aboutdebugging.collapsibilities.sharedWorker": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "devtools.aboutdebugging.collapsibilities.tab": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "devtools.aboutdebugging.collapsibilities.temporaryExtension": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "devtools.aboutdebugging.local-tab-debugging": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "devtools.aboutdebugging.network-locations": {
+    "default_value": "[]",
+    "last_updated": "92.0"
+  },
+  "devtools.aboutdebugging.process-debugging": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "devtools.aboutdebugging.showHiddenAddons": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "devtools.accessibility.enabled": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "devtools.application.enabled": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "devtools.browserconsole.contentMessages": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "devtools.browserconsole.filter.css": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "devtools.browserconsole.filter.debug": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "devtools.browserconsole.filter.error": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "devtools.browserconsole.filter.info": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "devtools.browserconsole.filter.log": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "devtools.browserconsole.filter.net": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "devtools.browserconsole.filter.netxhr": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "devtools.browserconsole.filter.warn": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "devtools.browserconsole.input.editor": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "devtools.browserconsole.input.editorWidth": {
+    "default_value": 0,
+    "last_updated": "92.0"
+  },
+  "devtools.browsertoolbox.fission": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "devtools.cache.disabled": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "devtools.command-button-errorcount.enabled": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "devtools.command-button-fission-prefs.enabled": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "devtools.command-button-frames.enabled": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "devtools.command-button-measure.enabled": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "devtools.command-button-noautohide.enabled": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "devtools.command-button-paintflashing.enabled": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "devtools.command-button-pick.enabled": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "devtools.command-button-responsive.enabled": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "devtools.command-button-rulers.enabled": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "devtools.command-button-screenshot.enabled": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "devtools.command-button-splitconsole.enabled": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "devtools.contenttoolbox.webconsole.input.context": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "devtools.debugger.features.async-captured-stacks": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "devtools.debugger.features.async-live-stacks": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "devtools.debugger.features.map-await-expression": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "devtools.defaultColorUnit": {
+    "default_value": "authored",
+    "last_updated": "92.0"
+  },
+  "devtools.dom.enabled": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "devtools.editor.autoclosebrackets": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "devtools.editor.autocomplete": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "devtools.editor.detectindentation": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "devtools.editor.enableCodeFolding": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "devtools.editor.expandtab": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "devtools.editor.keymap": {
+    "default_value": "default",
+    "last_updated": "92.0"
+  },
+  "devtools.editor.tabsize": {
+    "default_value": 2,
+    "last_updated": "92.0"
+  },
+  "devtools.eyedropper.zoom": {
+    "default_value": 6,
+    "last_updated": "92.0"
+  },
+  "devtools.gridinspector.gridOutlineMaxColumns": {
+    "default_value": 50,
+    "last_updated": "92.0"
+  },
+  "devtools.gridinspector.gridOutlineMaxRows": {
+    "default_value": 50,
+    "last_updated": "92.0"
+  },
+  "devtools.gridinspector.maxHighlighters": {
+    "default_value": 3,
+    "last_updated": "92.0"
+  },
+  "devtools.gridinspector.showGridAreas": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "devtools.gridinspector.showGridLineNumbers": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "devtools.gridinspector.showInfiniteLines": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "devtools.hud.loglimit": {
+    "default_value": 10000,
+    "last_updated": "92.0"
+  },
+  "devtools.inspector.activeSidebar": {
+    "default_value": "layoutview",
+    "last_updated": "92.0"
+  },
+  "devtools.inspector.chrome.three-pane-enabled": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "devtools.inspector.compatibility.enabled": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "devtools.inspector.enabled": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "devtools.inspector.imagePreviewTooltipSize": {
+    "default_value": 300,
+    "last_updated": "92.0"
+  },
+  "devtools.inspector.remote": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "devtools.inspector.ruleview.inline-compatibility-warning.enabled": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "devtools.inspector.showAllAnonymousContent": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "devtools.inspector.showUserAgentStyles": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "devtools.inspector.show_pseudo_elements": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "devtools.inspector.three-pane-enabled": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "devtools.layout.boxmodel.highlightProperty": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "devtools.layout.boxmodel.opened": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "devtools.layout.flex-container.opened": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "devtools.layout.flex-item.opened": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "devtools.layout.flexbox.opened": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "devtools.layout.grid.opened": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "devtools.markup.beautifyOnCopy": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "devtools.markup.collapseAttributeLength": {
+    "default_value": 120,
+    "last_updated": "92.0"
+  },
+  "devtools.markup.collapseAttributes": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "devtools.markup.mutationBreakpoints.enabled": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "devtools.memory.custom-census-displays": {
+    "default_value": "{}",
+    "last_updated": "92.0"
+  },
+  "devtools.memory.custom-label-displays": {
+    "default_value": "{}",
+    "last_updated": "92.0"
+  },
+  "devtools.memory.custom-tree-map-displays": {
+    "default_value": "{}",
+    "last_updated": "92.0"
+  },
+  "devtools.memory.enabled": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "devtools.memory.max-individuals": {
+    "default_value": 1000,
+    "last_updated": "92.0"
+  },
+  "devtools.memory.max-retaining-paths": {
+    "default_value": 10,
+    "last_updated": "92.0"
+  },
+  "devtools.netmonitor.audits.slow": {
+    "default_value": 500,
+    "last_updated": "92.0"
+  },
+  "devtools.netmonitor.enabled": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "devtools.netmonitor.features.requestBlocking": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "devtools.netmonitor.features.search": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "devtools.netmonitor.features.serverSentEvents": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "devtools.netmonitor.features.webSockets": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "devtools.netmonitor.filters": {
+    "default_value": "[\"all\"]",
+    "last_updated": "92.0"
+  },
+  "devtools.netmonitor.har.compress": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "devtools.netmonitor.har.defaultFileName": {
+    "default_value": "%hostname_Archive [%date]",
+    "last_updated": "92.0"
+  },
+  "devtools.netmonitor.har.defaultLogDir": {
+    "default_value": "",
+    "last_updated": "92.0"
+  },
+  "devtools.netmonitor.har.enableAutoExportToFile": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "devtools.netmonitor.har.forceExport": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "devtools.netmonitor.har.includeResponseBodies": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "devtools.netmonitor.har.jsonp": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "devtools.netmonitor.har.jsonpCallback": {
+    "default_value": "",
+    "last_updated": "92.0"
+  },
+  "devtools.netmonitor.har.pageLoadedTimeout": {
+    "default_value": 1500,
+    "last_updated": "92.0"
+  },
+  "devtools.netmonitor.msg.displayed-messages.limit": {
+    "default_value": 500,
+    "last_updated": "92.0"
+  },
+  "devtools.netmonitor.msg.payload-preview-height": {
+    "default_value": 128,
+    "last_updated": "92.0"
+  },
+  "devtools.netmonitor.panes-network-details-height": {
+    "default_value": 450,
+    "last_updated": "92.0"
+  },
+  "devtools.netmonitor.panes-network-details-width": {
+    "default_value": 550,
+    "last_updated": "92.0"
+  },
+  "devtools.netmonitor.panes-search-height": {
+    "default_value": 450,
+    "last_updated": "92.0"
+  },
+  "devtools.netmonitor.panes-search-width": {
+    "default_value": 550,
+    "last_updated": "92.0"
+  },
+  "devtools.netmonitor.persistlog": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "devtools.netmonitor.response.ui.limit": {
+    "default_value": 10240,
+    "last_updated": "92.0"
+  },
+  "devtools.netmonitor.saveRequestAndResponseBodies": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "devtools.overflow.debugging.enabled": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "devtools.performance.enabled": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "devtools.performance.memory.max-log-length": {
+    "default_value": 125000,
+    "last_updated": "92.0"
+  },
+  "devtools.performance.memory.sample-probability": {
+    "default_value": "0.05",
+    "last_updated": "92.0"
+  },
+  "devtools.performance.new-panel-enabled": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "devtools.performance.profiler.buffer-size": {
+    "default_value": 10000000,
+    "last_updated": "92.0"
+  },
+  "devtools.performance.profiler.sample-frequency-hz": {
+    "default_value": 1000,
+    "last_updated": "92.0"
+  },
+  "devtools.performance.ui.enable-allocations": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "devtools.performance.ui.enable-framerate": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "devtools.performance.ui.enable-memory": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "devtools.performance.ui.enable-memory-flame": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "devtools.performance.ui.experimental": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "devtools.performance.ui.flatten-tree-recursion": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "devtools.performance.ui.invert-call-tree": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "devtools.performance.ui.invert-flame-graph": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "devtools.performance.ui.show-idle-blocks": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "devtools.performance.ui.show-jit-optimizations": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "devtools.performance.ui.show-platform-data": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "devtools.popup.disable_autohide": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "devtools.responsive.leftAlignViewport.enabled": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "devtools.responsive.reloadConditions.touchSimulation": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "devtools.responsive.reloadConditions.userAgent": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "devtools.responsive.reloadNotification.enabled": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "devtools.responsive.showUserAgentInput": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "devtools.responsive.touchSimulation.enabled": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "devtools.responsive.userAgent": {
+    "default_value": "",
+    "last_updated": "92.0"
+  },
+  "devtools.responsive.viewport.angle": {
+    "default_value": 0,
+    "last_updated": "92.0"
+  },
+  "devtools.responsive.viewport.height": {
+    "default_value": 480,
+    "last_updated": "92.0"
+  },
+  "devtools.responsive.viewport.pixelRatio": {
+    "default_value": 0,
+    "last_updated": "92.0"
+  },
+  "devtools.responsive.viewport.width": {
+    "default_value": 320,
+    "last_updated": "92.0"
+  },
+  "devtools.screenshot.audio.enabled": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "devtools.screenshot.clipboard.enabled": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "devtools.serviceWorkers.testing.enabled": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "devtools.source-map.client-service.enabled": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "devtools.storage.enabled": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "devtools.storage.extensionStorage.enabled": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "devtools.styleeditor.autocompletion-enabled": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "devtools.styleeditor.enabled": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "devtools.styleeditor.mediaSidebarWidth": {
+    "default_value": 238,
+    "last_updated": "92.0"
+  },
+  "devtools.styleeditor.navSidebarWidth": {
+    "default_value": 245,
+    "last_updated": "92.0"
+  },
+  "devtools.styleeditor.showMediaSidebar": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "devtools.styleeditor.transitions": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "devtools.target-switching.server.enabled": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "devtools.toolbox.footer.height": {
+    "default_value": 250,
+    "last_updated": "92.0"
+  },
+  "devtools.toolbox.host": {
+    "default_value": "bottom",
+    "last_updated": "92.0"
+  },
+  "devtools.toolbox.previousHost": {
+    "default_value": "right",
+    "last_updated": "92.0"
+  },
+  "devtools.toolbox.selectedTool": {
+    "default_value": "inspector",
+    "last_updated": "92.0"
+  },
+  "devtools.toolbox.sideEnabled": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "devtools.toolbox.sidebar.width": {
+    "default_value": 500,
+    "last_updated": "92.0"
+  },
+  "devtools.toolbox.splitconsoleEnabled": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "devtools.toolbox.splitconsoleHeight": {
+    "default_value": 100,
+    "last_updated": "92.0"
+  },
+  "devtools.toolbox.tabsOrder": {
+    "default_value": "",
+    "last_updated": "92.0"
+  },
+  "devtools.toolbox.zoomValue": {
+    "default_value": "1",
+    "last_updated": "92.0"
+  },
+  "devtools.webconsole.filter.css": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "devtools.webconsole.filter.debug": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "devtools.webconsole.filter.error": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "devtools.webconsole.filter.info": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "devtools.webconsole.filter.log": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "devtools.webconsole.filter.net": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "devtools.webconsole.filter.netxhr": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "devtools.webconsole.filter.warn": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "devtools.webconsole.groupWarningMessages": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "devtools.webconsole.input.autocomplete": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "devtools.webconsole.input.context": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "devtools.webconsole.input.eagerEvaluation": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "devtools.webconsole.input.editor": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "devtools.webconsole.input.editorOnboarding": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "devtools.webconsole.input.editorWidth": {
+    "default_value": 0,
+    "last_updated": "92.0"
+  },
+  "devtools.webconsole.inputHistoryCount": {
+    "default_value": 300,
+    "last_updated": "92.0"
+  },
+  "devtools.webconsole.persistlog": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "devtools.webconsole.sidebarToggle": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "devtools.webconsole.timestampMessages": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "doh-rollout.clearModeOnShutdown": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "dom.debug.propagate_gesture_events_through_content": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "dom.disable_open_during_load": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "dom.disable_window_flip": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "dom.disable_window_move_resize": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "dom.ipc.plugins.flash.disable-protected-mode": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "dom.ipc.plugins.nativeCursorSupport": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "dom.ipc.plugins.sandbox-level.default": {
+    "default_value": 0,
+    "last_updated": "92.0"
+  },
+  "dom.ipc.plugins.sandbox-level.flash": {
+    "default_value": 0,
+    "last_updated": "92.0"
+  },
+  "dom.ipc.processPrelaunch.enabled": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "dom.ipc.processPriorityManager.enabled": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "dom.ipc.shims.enabledWarnings": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "dom.push.enabled": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "dom.serviceWorkers.enabled": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "dom.storage_access.enabled": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "extensions.autoDisableScopes": {
+    "default_value": 15,
+    "last_updated": "92.0"
+  },
+  "extensions.checkCompatibility.temporaryThemeOverride_minAppVersion": {
+    "default_value": "29.0a1",
+    "last_updated": "92.0"
+  },
+  "extensions.experiments.enabled": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "extensions.formautofill.reauth.enabled": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "extensions.geckoProfiler.acceptedExtensionIds": {
+    "default_value": "geckoprofiler@mozilla.com,quantum-foxfooding@mozilla.com,raptor@mozilla.org",
+    "last_updated": "92.0"
+  },
+  "extensions.getAddons.cache.enabled": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "extensions.getAddons.discovery.api_url": {
+    "default_value": "https://services.addons.mozilla.org/api/v4/discovery/?lang=%LOCALE%&edition=%DISTRIBUTION%",
+    "last_updated": "92.0"
+  },
+  "extensions.getAddons.get.url": {
+    "default_value": "https://services.addons.mozilla.org/api/v4/addons/search/?guid=%IDS%&lang=%LOCALE%",
+    "last_updated": "92.0"
+  },
+  "extensions.getAddons.langpacks.url": {
+    "default_value": "https://services.addons.mozilla.org/api/v4/addons/language-tools/?app=firefox&type=language&appversion=%VERSION%",
+    "last_updated": "92.0"
+  },
+  "extensions.getAddons.link.url": {
+    "default_value": "https://addons.mozilla.org/%LOCALE%/firefox/",
+    "last_updated": "92.0"
+  },
+  "extensions.getAddons.search.browseURL": {
+    "default_value": "https://addons.mozilla.org/%LOCALE%/firefox/search?q=%TERMS%&platform=%OS%&appver=%VERSION%",
+    "last_updated": "92.0"
+  },
+  "extensions.langpacks.signatures.required": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "extensions.logging.enabled": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "extensions.pocket.api": {
+    "default_value": "api.getpocket.com",
+    "last_updated": "92.0"
+  },
+  "extensions.pocket.enabled": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "extensions.pocket.loggedOutVariant": {
+    "default_value": "control",
+    "last_updated": "92.0"
+  },
+  "extensions.pocket.oAuthConsumerKey": {
+    "default_value": "40249-e88c401e1b1f2242d9e441c4",
+    "last_updated": "92.0"
+  },
+  "extensions.pocket.onSaveRecs": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "extensions.pocket.onSaveRecs.locales": {
+    "default_value": "en-US,en-GB,en-CA",
+    "last_updated": "92.0"
+  },
+  "extensions.pocket.showHome": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "extensions.pocket.site": {
+    "default_value": "getpocket.com",
+    "last_updated": "92.0"
+  },
+  "extensions.postDownloadThirdPartyPrompt": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "extensions.recommendations.privacyPolicyUrl": {
+    "default_value": "https://www.mozilla.org/privacy/firefox/?utm_source=firefox-browser&utm_medium=firefox-browser&utm_content=privacy-policy-link#addons",
+    "last_updated": "92.0"
+  },
+  "extensions.recommendations.themeRecommendationUrl": {
+    "default_value": "https://color.firefox.com/?utm_source=firefox-browser&utm_medium=firefox-browser&utm_content=theme-footer-link",
+    "last_updated": "92.0"
+  },
+  "extensions.screenshots.disabled": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "extensions.startupScanScopes": {
+    "default_value": 0,
+    "last_updated": "92.0"
+  },
+  "extensions.strictCompatibility": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "extensions.systemAddon.update.enabled": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "extensions.systemAddon.update.url": {
+    "default_value": "https://aus5.mozilla.org/update/3/SystemAddons/%VERSION%/%BUILD_ID%/%BUILD_TARGET%/%LOCALE%/%CHANNEL%/%OS_VERSION%/%DISTRIBUTION%/%DISTRIBUTION_VERSION%/update.xml",
+    "last_updated": "92.0"
+  },
+  "extensions.translations.disabled": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "extensions.update.autoUpdateDefault": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "extensions.update.background.url": {
+    "default_value": "https://versioncheck-bg.addons.mozilla.org/update/VersionCheck.php?reqVersion=%REQ_VERSION%&id=%ITEM_ID%&version=%ITEM_VERSION%&maxAppVersion=%ITEM_MAXAPPVERSION%&status=%ITEM_STATUS%&appID=%APP_ID%&appVersion=%APP_VERSION%&appOS=%APP_OS%&appABI=%APP_ABI%&locale=%APP_LOCALE%&currentAppVersion=%CURRENT_APP_VERSION%&updateType=%UPDATE_TYPE%&compatMode=%COMPATIBILITY_MODE%",
+    "last_updated": "92.0"
+  },
+  "extensions.update.enabled": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "extensions.update.interval": {
+    "default_value": 86400,
+    "last_updated": "92.0"
+  },
+  "extensions.update.url": {
+    "default_value": "https://versioncheck.addons.mozilla.org/update/VersionCheck.php?reqVersion=%REQ_VERSION%&id=%ITEM_ID%&version=%ITEM_VERSION%&maxAppVersion=%ITEM_MAXAPPVERSION%&status=%ITEM_STATUS%&appID=%APP_ID%&appVersion=%APP_VERSION%&appOS=%APP_OS%&appABI=%APP_ABI%&locale=%APP_LOCALE%&currentAppVersion=%CURRENT_APP_VERSION%&updateType=%UPDATE_TYPE%&compatMode=%COMPATIBILITY_MODE%",
+    "last_updated": "92.0"
+  },
+  "extensions.webextOptionalPermissionPrompts": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "extensions.webextensions.background-delayed-startup": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "extensions.webextensions.remote": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "first-startup.timeout": {
+    "default_value": 30000,
+    "last_updated": "92.0"
+  },
+  "fission.frontend.simulate-events": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "fission.frontend.simulate-messages": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "full-screen-api.enabled": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "gecko.handlerService.defaultHandlersVersion": {
+    "default_value": "chrome://browser-region/locale/region.properties",
+    "last_updated": "92.0"
+  },
+  "gecko.handlerService.schemes.irc.0.name": {
+    "default_value": "chrome://browser-region/locale/region.properties",
+    "last_updated": "92.0"
+  },
+  "gecko.handlerService.schemes.irc.0.uriTemplate": {
+    "default_value": "chrome://browser-region/locale/region.properties",
+    "last_updated": "92.0"
+  },
+  "gecko.handlerService.schemes.irc.1.name": {
+    "default_value": "chrome://browser-region/locale/region.properties",
+    "last_updated": "92.0"
+  },
+  "gecko.handlerService.schemes.irc.1.uriTemplate": {
+    "default_value": "chrome://browser-region/locale/region.properties",
+    "last_updated": "92.0"
+  },
+  "gecko.handlerService.schemes.irc.2.name": {
+    "default_value": "chrome://browser-region/locale/region.properties",
+    "last_updated": "92.0"
+  },
+  "gecko.handlerService.schemes.irc.2.uriTemplate": {
+    "default_value": "chrome://browser-region/locale/region.properties",
+    "last_updated": "92.0"
+  },
+  "gecko.handlerService.schemes.irc.3.name": {
+    "default_value": "chrome://browser-region/locale/region.properties",
+    "last_updated": "92.0"
+  },
+  "gecko.handlerService.schemes.irc.3.uriTemplate": {
+    "default_value": "chrome://browser-region/locale/region.properties",
+    "last_updated": "92.0"
+  },
+  "gecko.handlerService.schemes.ircs.0.name": {
+    "default_value": "chrome://browser-region/locale/region.properties",
+    "last_updated": "92.0"
+  },
+  "gecko.handlerService.schemes.ircs.0.uriTemplate": {
+    "default_value": "chrome://browser-region/locale/region.properties",
+    "last_updated": "92.0"
+  },
+  "gecko.handlerService.schemes.ircs.1.name": {
+    "default_value": "chrome://browser-region/locale/region.properties",
+    "last_updated": "92.0"
+  },
+  "gecko.handlerService.schemes.ircs.1.uriTemplate": {
+    "default_value": "chrome://browser-region/locale/region.properties",
+    "last_updated": "92.0"
+  },
+  "gecko.handlerService.schemes.ircs.2.name": {
+    "default_value": "chrome://browser-region/locale/region.properties",
+    "last_updated": "92.0"
+  },
+  "gecko.handlerService.schemes.ircs.2.uriTemplate": {
+    "default_value": "chrome://browser-region/locale/region.properties",
+    "last_updated": "92.0"
+  },
+  "gecko.handlerService.schemes.ircs.3.name": {
+    "default_value": "chrome://browser-region/locale/region.properties",
+    "last_updated": "92.0"
+  },
+  "gecko.handlerService.schemes.ircs.3.uriTemplate": {
+    "default_value": "chrome://browser-region/locale/region.properties",
+    "last_updated": "92.0"
+  },
+  "gecko.handlerService.schemes.mailto.0.name": {
+    "default_value": "chrome://browser-region/locale/region.properties",
+    "last_updated": "92.0"
+  },
+  "gecko.handlerService.schemes.mailto.0.uriTemplate": {
+    "default_value": "chrome://browser-region/locale/region.properties",
+    "last_updated": "92.0"
+  },
+  "gecko.handlerService.schemes.mailto.1.name": {
+    "default_value": "chrome://browser-region/locale/region.properties",
+    "last_updated": "92.0"
+  },
+  "gecko.handlerService.schemes.mailto.1.uriTemplate": {
+    "default_value": "chrome://browser-region/locale/region.properties",
+    "last_updated": "92.0"
+  },
+  "gecko.handlerService.schemes.mailto.2.name": {
+    "default_value": "chrome://browser-region/locale/region.properties",
+    "last_updated": "92.0"
+  },
+  "gecko.handlerService.schemes.mailto.2.uriTemplate": {
+    "default_value": "chrome://browser-region/locale/region.properties",
+    "last_updated": "92.0"
+  },
+  "gecko.handlerService.schemes.mailto.3.name": {
+    "default_value": "chrome://browser-region/locale/region.properties",
+    "last_updated": "92.0"
+  },
+  "gecko.handlerService.schemes.mailto.3.uriTemplate": {
+    "default_value": "chrome://browser-region/locale/region.properties",
+    "last_updated": "92.0"
+  },
+  "gecko.handlerService.schemes.webcal.0.name": {
+    "default_value": "chrome://browser-region/locale/region.properties",
+    "last_updated": "92.0"
+  },
+  "gecko.handlerService.schemes.webcal.0.uriTemplate": {
+    "default_value": "chrome://browser-region/locale/region.properties",
+    "last_updated": "92.0"
+  },
+  "gecko.handlerService.schemes.webcal.1.name": {
+    "default_value": "chrome://browser-region/locale/region.properties",
+    "last_updated": "92.0"
+  },
+  "gecko.handlerService.schemes.webcal.1.uriTemplate": {
+    "default_value": "chrome://browser-region/locale/region.properties",
+    "last_updated": "92.0"
+  },
+  "gecko.handlerService.schemes.webcal.2.name": {
+    "default_value": "chrome://browser-region/locale/region.properties",
+    "last_updated": "92.0"
+  },
+  "gecko.handlerService.schemes.webcal.2.uriTemplate": {
+    "default_value": "chrome://browser-region/locale/region.properties",
+    "last_updated": "92.0"
+  },
+  "gecko.handlerService.schemes.webcal.3.name": {
+    "default_value": "chrome://browser-region/locale/region.properties",
+    "last_updated": "92.0"
+  },
+  "gecko.handlerService.schemes.webcal.3.uriTemplate": {
+    "default_value": "chrome://browser-region/locale/region.properties",
+    "last_updated": "92.0"
+  },
+  "general.autoScroll": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "identity.fxaccounts.autoconfig.uri": {
+    "default_value": "",
+    "last_updated": "92.0"
+  },
+  "identity.fxaccounts.commands.enabled": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "identity.fxaccounts.commands.missed.fetch_interval": {
+    "default_value": 86400,
+    "last_updated": "92.0"
+  },
+  "identity.fxaccounts.contextParam": {
+    "default_value": "fx_desktop_v3",
+    "last_updated": "92.0"
+  },
+  "identity.fxaccounts.enabled": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "identity.fxaccounts.migrateToDevEdition": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "identity.fxaccounts.pairing.enabled": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "identity.fxaccounts.remote.oauth.uri": {
+    "default_value": "https://oauth.accounts.firefox.com/v1",
+    "last_updated": "92.0"
+  },
+  "identity.fxaccounts.remote.pairing.uri": {
+    "default_value": "wss://channelserver.services.mozilla.com",
+    "last_updated": "92.0"
+  },
+  "identity.fxaccounts.remote.profile.uri": {
+    "default_value": "https://profile.accounts.firefox.com/v1",
+    "last_updated": "92.0"
+  },
+  "identity.fxaccounts.remote.root": {
+    "default_value": "https://accounts.firefox.com/",
+    "last_updated": "92.0"
+  },
+  "identity.fxaccounts.service.monitorLoginUrl": {
+    "default_value": "https://monitor.firefox.com/",
+    "last_updated": "92.0"
+  },
+  "identity.fxaccounts.toolbar.accessed": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "identity.fxaccounts.toolbar.enabled": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "identity.mobilepromo.android": {
+    "default_value": "https://www.mozilla.org/firefox/android/?utm_source=firefox-browser&utm_medium=firefox-browser&utm_campaign=",
+    "last_updated": "92.0"
+  },
+  "identity.mobilepromo.ios": {
+    "default_value": "https://www.mozilla.org/firefox/ios/?utm_source=firefox-browser&utm_medium=firefox-browser&utm_campaign=",
+    "last_updated": "92.0"
+  },
+  "identity.sendtabpromo.url": {
+    "default_value": "https://support.mozilla.org/1/firefox/%VERSION%/%OS%/%LOCALE%/send-tab",
+    "last_updated": "92.0"
+  },
+  "identity.sync.tokenserver.uri": {
+    "default_value": "https://token.services.mozilla.com/1.0/sync/1.5",
+    "last_updated": "92.0"
+  },
+  "intl.multilingual.downloadEnabled": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "intl.multilingual.enabled": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "intl.regional_prefs.use_os_locales": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "keyword.enabled": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "layout.spellcheckDefault": {
+    "default_value": 1,
+    "last_updated": "92.0"
+  },
+  "lightweightThemes.getMoreURL": {
+    "default_value": "https://addons.mozilla.org/%LOCALE%/firefox/themes",
+    "last_updated": "92.0"
+  },
+  "media.autoplay.block-webaudio": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "media.autoplay.default": {
+    "default_value": 1,
+    "last_updated": "92.0"
+  },
+  "media.gmp-gmpopenh264.enabled": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "media.gmp-gmpopenh264.visible": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "media.gmp-provider.enabled": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "media.gmp-widevinecdm.enabled": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "media.gmp-widevinecdm.visible": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "media.gmp.trial-create.enabled": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "media.peerconnection.mtransport_process": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "media.videocontrols.picture-in-picture.audio-toggle.enabled": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "media.videocontrols.picture-in-picture.enabled": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "media.videocontrols.picture-in-picture.keyboard-controls.enabled": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "media.videocontrols.picture-in-picture.video-toggle.enabled": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "media.webspeech.synth.enabled": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "messaging-system.log": {
+    "default_value": "warn",
+    "last_updated": "92.0"
+  },
+  "messaging-system.rsexperimentloader.collection_id": {
+    "default_value": "nimbus-desktop-experiments",
+    "last_updated": "92.0"
+  },
+  "messaging-system.rsexperimentloader.enabled": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "mousewheel.with_alt.action": {
+    "default_value": 2,
+    "last_updated": "92.0"
+  },
+  "mousewheel.with_control.action": {
+    "default_value": 3,
+    "last_updated": "92.0"
+  },
+  "mousewheel.with_control.action.override_x": {
+    "default_value": 0,
+    "last_updated": "92.0"
+  },
+  "mousewheel.with_meta.action": {
+    "default_value": 1,
+    "last_updated": "92.0"
+  },
+  "mousewheel.with_meta.action.override_x": {
+    "default_value": 0,
+    "last_updated": "92.0"
+  },
+  "mousewheel.with_shift.action": {
+    "default_value": 4,
+    "last_updated": "92.0"
+  },
+  "mousewheel.with_win.action": {
+    "default_value": 1,
+    "last_updated": "92.0"
+  },
+  "network.captive-portal-service.enabled": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "network.cookie.cookieBehavior": {
+    "default_value": 4,
+    "last_updated": "92.0"
+  },
+  "network.cookie.cookieBehavior.pbmode": {
+    "default_value": 5,
+    "last_updated": "92.0"
+  },
+  "network.manage-offline-status": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "network.protocol-handler.expose-all": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "network.protocol-handler.expose.mailto": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "network.protocol-handler.expose.news": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "network.protocol-handler.expose.nntp": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "network.protocol-handler.expose.snews": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "network.protocol-handler.external.mailto": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "network.protocol-handler.external.ms-windows-store": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "network.protocol-handler.external.news": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "network.protocol-handler.external.nntp": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "network.protocol-handler.external.snews": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "network.protocol-handler.warn-external.mailto": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "network.protocol-handler.warn-external.ms-windows-store": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "network.protocol-handler.warn-external.news": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "network.protocol-handler.warn-external.nntp": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "network.protocol-handler.warn-external.snews": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "network.proxy.share_proxy_settings": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "nimbus.debug": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "pdfjs.disabled": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "pdfjs.firstRun": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "pdfjs.handleOctetStream": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "pdfjs.previousHandler.alwaysAskBeforeHandling": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "pdfjs.previousHandler.preferredAction": {
+    "default_value": 0,
+    "last_updated": "92.0"
+  },
+  "permissions.default.camera": {
+    "default_value": 0,
+    "last_updated": "92.0"
+  },
+  "permissions.default.desktop-notification": {
+    "default_value": 0,
+    "last_updated": "92.0"
+  },
+  "permissions.default.geo": {
+    "default_value": 0,
+    "last_updated": "92.0"
+  },
+  "permissions.default.microphone": {
+    "default_value": 0,
+    "last_updated": "92.0"
+  },
+  "permissions.default.shortcuts": {
+    "default_value": 0,
+    "last_updated": "92.0"
+  },
+  "permissions.default.xr": {
+    "default_value": 0,
+    "last_updated": "92.0"
+  },
+  "permissions.desktop-notification.notNow.enabled": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "permissions.desktop-notification.postPrompt.enabled": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "permissions.fullscreen.allowed": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "permissions.manager.defaultsUrl": {
+    "default_value": "resource://app/defaults/permissions",
+    "last_updated": "92.0"
+  },
+  "places.forgetThisSite.clearByBaseDomain": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "places.frecency.bookmarkVisitBonus": {
+    "default_value": 75,
+    "last_updated": "92.0"
+  },
+  "places.frecency.defaultBucketWeight": {
+    "default_value": 10,
+    "last_updated": "92.0"
+  },
+  "places.frecency.defaultVisitBonus": {
+    "default_value": 0,
+    "last_updated": "92.0"
+  },
+  "places.frecency.downloadVisitBonus": {
+    "default_value": 0,
+    "last_updated": "92.0"
+  },
+  "places.frecency.embedVisitBonus": {
+    "default_value": 0,
+    "last_updated": "92.0"
+  },
+  "places.frecency.firstBucketCutoff": {
+    "default_value": 4,
+    "last_updated": "92.0"
+  },
+  "places.frecency.firstBucketWeight": {
+    "default_value": 100,
+    "last_updated": "92.0"
+  },
+  "places.frecency.fourthBucketCutoff": {
+    "default_value": 90,
+    "last_updated": "92.0"
+  },
+  "places.frecency.fourthBucketWeight": {
+    "default_value": 30,
+    "last_updated": "92.0"
+  },
+  "places.frecency.framedLinkVisitBonus": {
+    "default_value": 0,
+    "last_updated": "92.0"
+  },
+  "places.frecency.linkVisitBonus": {
+    "default_value": 100,
+    "last_updated": "92.0"
+  },
+  "places.frecency.numVisits": {
+    "default_value": 10,
+    "last_updated": "92.0"
+  },
+  "places.frecency.permRedirectVisitBonus": {
+    "default_value": 50,
+    "last_updated": "92.0"
+  },
+  "places.frecency.redirectSourceVisitBonus": {
+    "default_value": 25,
+    "last_updated": "92.0"
+  },
+  "places.frecency.reloadVisitBonus": {
+    "default_value": 0,
+    "last_updated": "92.0"
+  },
+  "places.frecency.secondBucketCutoff": {
+    "default_value": 14,
+    "last_updated": "92.0"
+  },
+  "places.frecency.secondBucketWeight": {
+    "default_value": 70,
+    "last_updated": "92.0"
+  },
+  "places.frecency.tempRedirectVisitBonus": {
+    "default_value": 40,
+    "last_updated": "92.0"
+  },
+  "places.frecency.thirdBucketCutoff": {
+    "default_value": 31,
+    "last_updated": "92.0"
+  },
+  "places.frecency.thirdBucketWeight": {
+    "default_value": 50,
+    "last_updated": "92.0"
+  },
+  "places.frecency.typedVisitBonus": {
+    "default_value": 2000,
+    "last_updated": "92.0"
+  },
+  "places.frecency.unvisitedBookmarkBonus": {
+    "default_value": 140,
+    "last_updated": "92.0"
+  },
+  "places.frecency.unvisitedTypedBonus": {
+    "default_value": 200,
+    "last_updated": "92.0"
+  },
+  "places.history.enabled": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "places.search.matchDiacritics": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "plugin.default.state": {
+    "default_value": 1,
+    "last_updated": "92.0"
+  },
+  "plugins.favorfallback.mode": {
+    "default_value": "follow-ctp",
+    "last_updated": "92.0"
+  },
+  "plugins.favorfallback.rules": {
+    "default_value": "nosrc,video",
+    "last_updated": "92.0"
+  },
+  "plugins.flashBlock.enabled": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "plugins.show_infobar": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "plugins.testmode": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "print.use_simplify_page": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "privacy.clearOnShutdown.cache": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "privacy.clearOnShutdown.cookies": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "privacy.clearOnShutdown.downloads": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "privacy.clearOnShutdown.formdata": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "privacy.clearOnShutdown.history": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "privacy.clearOnShutdown.offlineApps": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "privacy.clearOnShutdown.openWindows": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "privacy.clearOnShutdown.sessions": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "privacy.clearOnShutdown.siteSettings": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "privacy.cpd.cache": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "privacy.cpd.cookies": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "privacy.cpd.downloads": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "privacy.cpd.formdata": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "privacy.cpd.history": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "privacy.cpd.offlineApps": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "privacy.cpd.openWindows": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "privacy.cpd.passwords": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "privacy.cpd.sessions": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "privacy.cpd.siteSettings": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "privacy.history.custom": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "privacy.item.cookies": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "privacy.panicButton.enabled": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "privacy.popups.policy": {
+    "default_value": 1,
+    "last_updated": "92.0"
+  },
+  "privacy.popups.showBrowserMessage": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "privacy.popups.usecustom": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "privacy.sanitize.migrateFx3Prefs": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "privacy.sanitize.timeSpan": {
+    "default_value": 1,
+    "last_updated": "92.0"
+  },
+  "privacy.temporary_permission_expire_time_ms": {
+    "default_value": 3600000,
+    "last_updated": "92.0"
+  },
+  "privacy.trackingprotection.cryptomining.enabled": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "privacy.trackingprotection.fingerprinting.enabled": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "privacy.userContext.enabled": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "privacy.userContext.extension": {
+    "default_value": "",
+    "last_updated": "92.0"
+  },
+  "privacy.userContext.newTabContainerOnLeftClick.enabled": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "privacy.userContext.ui.enabled": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "privacy.usercontext.about_newtab_segregation.enabled": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "privacy.webrtc.allowSilencingNotifications": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "privacy.webrtc.deviceGracePeriodTimeoutMs": {
+    "default_value": 3600000,
+    "last_updated": "92.0"
+  },
+  "privacy.webrtc.globalMuteToggles": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "privacy.webrtc.hideGlobalIndicator": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "privacy.webrtc.legacyGlobalIndicator": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "privacy.webrtc.sharedTabWarning": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "prompts.contentPromptSubDialog": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "prompts.defaultModalType": {
+    "default_value": 3,
+    "last_updated": "92.0"
+  },
+  "prompts.tabChromePromptSubDialog": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "prompts.windowPromptSubDialog": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "reader.errors.includeURLs": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "reader.parse-node-limit": {
+    "default_value": 0,
+    "last_updated": "92.0"
+  },
+  "screenshots.browser.component.enabled": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "security.allow_eval_in_parent_process": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "security.allow_eval_with_system_principal": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "security.allow_parent_unrestricted_js_loads": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "security.alternate_certificate_error_page": {
+    "default_value": "certerror",
+    "last_updated": "92.0"
+  },
+  "security.app_menu.recordEventTelemetry": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "security.cert_pinning.enforcement_level": {
+    "default_value": 1,
+    "last_updated": "92.0"
+  },
+  "security.certerrors.mitm.auto_enable_enterprise_roots": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "security.certerrors.mitm.priming.enabled": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "security.certerrors.mitm.priming.endpoint": {
+    "default_value": "https://mitmdetection.services.mozilla.com/",
+    "last_updated": "92.0"
+  },
+  "security.certerrors.permanentOverride": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "security.certerrors.recordEventTelemetry": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "security.identitypopup.recordEventTelemetry": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "security.insecure_connection_icon.enabled": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "security.insecure_connection_icon.pbmode.enabled": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "security.insecure_connection_text.enabled": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "security.insecure_connection_text.pbmode.enabled": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "security.insecure_field_warning.contextual.enabled": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "security.mixed_content.block_active_content": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "security.protectionspopup.recordEventTelemetry": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "security.sandbox.content.level": {
+    "default_value": 1,
+    "last_updated": "92.0"
+  },
+  "security.sandbox.content.read_path_whitelist": {
+    "default_value": "",
+    "last_updated": "92.0"
+  },
+  "security.sandbox.content.syscall_whitelist": {
+    "default_value": "",
+    "last_updated": "92.0"
+  },
+  "security.sandbox.content.tempDirSuffix": {
+    "default_value": "",
+    "last_updated": "92.0"
+  },
+  "security.sandbox.content.write_path_whitelist": {
+    "default_value": "",
+    "last_updated": "92.0"
+  },
+  "security.sandbox.gpu.level": {
+    "default_value": 0,
+    "last_updated": "92.0"
+  },
+  "security.sandbox.logging.enabled": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "security.sandbox.plugin.tempDirSuffix": {
+    "default_value": "",
+    "last_updated": "92.0"
+  },
+  "security.sandbox.socket.process.level": {
+    "default_value": 1,
+    "last_updated": "92.0"
+  },
+  "security.secure_connection_icon_color_gray": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "services.sync.engine.creditcards.available": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "services.sync.prefs.dangerously_allow_arbitrary": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "services.sync.prefs.sync.accessibility.blockautorefresh": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "services.sync.prefs.sync.accessibility.browsewithcaret": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "services.sync.prefs.sync.accessibility.typeaheadfind": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "services.sync.prefs.sync.accessibility.typeaheadfind.linksonly": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "services.sync.prefs.sync.addons.ignoreUserEnabledChanges": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "services.sync.prefs.sync.app.shield.optoutstudies.enabled": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "services.sync.prefs.sync.browser.contentblocking.category": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "services.sync.prefs.sync.browser.contentblocking.features.strict": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "services.sync.prefs.sync.browser.crashReports.unsubmittedCheck.autoSubmit2": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "services.sync.prefs.sync.browser.ctrlTab.sortByRecentlyUsed": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "services.sync.prefs.sync.browser.discovery.enabled": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "services.sync.prefs.sync.browser.download.useDownloadDir": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "services.sync.prefs.sync.browser.formfill.enable": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "services.sync.prefs.sync.browser.link.open_newwindow": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "services.sync.prefs.sync.browser.menu.showViewImageInfo": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "services.sync.prefs.sync.browser.newtabpage.activity-stream.asrouter.userprefs.cfr.addons": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "services.sync.prefs.sync.browser.newtabpage.activity-stream.asrouter.userprefs.cfr.features": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "services.sync.prefs.sync.browser.newtabpage.activity-stream.feeds.section.highlights": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "services.sync.prefs.sync.browser.newtabpage.activity-stream.feeds.section.topstories": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "services.sync.prefs.sync.browser.newtabpage.activity-stream.feeds.snippets": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "services.sync.prefs.sync.browser.newtabpage.activity-stream.feeds.topsites": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "services.sync.prefs.sync.browser.newtabpage.activity-stream.section.highlights.includeBookmarks": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "services.sync.prefs.sync.browser.newtabpage.activity-stream.section.highlights.includeDownloads": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "services.sync.prefs.sync.browser.newtabpage.activity-stream.section.highlights.includePocket": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "services.sync.prefs.sync.browser.newtabpage.activity-stream.section.highlights.includeVisited": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "services.sync.prefs.sync.browser.newtabpage.activity-stream.section.highlights.rows": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "services.sync.prefs.sync.browser.newtabpage.activity-stream.section.topstories.rows": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "services.sync.prefs.sync.browser.newtabpage.activity-stream.showSearch": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "services.sync.prefs.sync.browser.newtabpage.activity-stream.showSponsored": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "services.sync.prefs.sync.browser.newtabpage.activity-stream.showSponsoredTopSites": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "services.sync.prefs.sync.browser.newtabpage.activity-stream.topSitesRows": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "services.sync.prefs.sync.browser.newtabpage.enabled": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "services.sync.prefs.sync.browser.newtabpage.pinned": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "services.sync.prefs.sync.browser.offline-apps.notify": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "services.sync.prefs.sync.browser.safebrowsing.downloads.enabled": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "services.sync.prefs.sync.browser.safebrowsing.downloads.remote.block_potentially_unwanted": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "services.sync.prefs.sync.browser.safebrowsing.malware.enabled": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "services.sync.prefs.sync.browser.safebrowsing.phishing.enabled": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "services.sync.prefs.sync.browser.search.update": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "services.sync.prefs.sync.browser.search.widget.inNavBar": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "services.sync.prefs.sync.browser.sessionstore.warnOnQuit": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "services.sync.prefs.sync.browser.startup.homepage": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "services.sync.prefs.sync.browser.startup.page": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "services.sync.prefs.sync.browser.tabs.loadInBackground": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "services.sync.prefs.sync.browser.tabs.warnOnClose": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "services.sync.prefs.sync.browser.tabs.warnOnOpen": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "services.sync.prefs.sync.browser.taskbar.previews.enable": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "services.sync.prefs.sync.browser.urlbar.maxRichResults": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "services.sync.prefs.sync.browser.urlbar.showSearchSuggestionsFirst": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "services.sync.prefs.sync.browser.urlbar.suggest.bookmark": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "services.sync.prefs.sync.browser.urlbar.suggest.engines": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "services.sync.prefs.sync.browser.urlbar.suggest.history": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "services.sync.prefs.sync.browser.urlbar.suggest.openpage": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "services.sync.prefs.sync.browser.urlbar.suggest.searches": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "services.sync.prefs.sync.browser.urlbar.suggest.topsites": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "services.sync.prefs.sync.dom.disable_open_during_load": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "services.sync.prefs.sync.dom.disable_window_flip": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "services.sync.prefs.sync.dom.disable_window_move_resize": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "services.sync.prefs.sync.dom.event.contextmenu.enabled": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "services.sync.prefs.sync.dom.security.https_only_mode": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "services.sync.prefs.sync.dom.security.https_only_mode_ever_enabled": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "services.sync.prefs.sync.dom.security.https_only_mode_ever_enabled_pbm": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "services.sync.prefs.sync.dom.security.https_only_mode_pbm": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "services.sync.prefs.sync.extensions.activeThemeID": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "services.sync.prefs.sync.extensions.update.enabled": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "services.sync.prefs.sync.general.autoScroll": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "services.sync.prefs.sync.general.smoothScroll": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "services.sync.prefs.sync.intl.accept_languages": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "services.sync.prefs.sync.intl.regional_prefs.use_os_locales": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "services.sync.prefs.sync.layout.spellcheckDefault": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "services.sync.prefs.sync.media.autoplay.default": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "services.sync.prefs.sync.media.eme.enabled": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "services.sync.prefs.sync.media.videocontrols.picture-in-picture.video-toggle.enabled": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "services.sync.prefs.sync.network.cookie.cookieBehavior": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "services.sync.prefs.sync.network.cookie.lifetimePolicy": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "services.sync.prefs.sync.network.cookie.thirdparty.sessionOnly": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "services.sync.prefs.sync.permissions.default.image": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "services.sync.prefs.sync.pref.downloads.disable_button.edit_actions": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "services.sync.prefs.sync.pref.privacy.disable_button.cookie_exceptions": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "services.sync.prefs.sync.privacy.clearOnShutdown.cache": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "services.sync.prefs.sync.privacy.clearOnShutdown.cookies": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "services.sync.prefs.sync.privacy.clearOnShutdown.downloads": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "services.sync.prefs.sync.privacy.clearOnShutdown.formdata": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "services.sync.prefs.sync.privacy.clearOnShutdown.history": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "services.sync.prefs.sync.privacy.clearOnShutdown.offlineApps": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "services.sync.prefs.sync.privacy.clearOnShutdown.sessions": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "services.sync.prefs.sync.privacy.clearOnShutdown.siteSettings": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "services.sync.prefs.sync.privacy.donottrackheader.enabled": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "services.sync.prefs.sync.privacy.reduceTimerPrecision": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "services.sync.prefs.sync.privacy.resistFingerprinting": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "services.sync.prefs.sync.privacy.resistFingerprinting.reduceTimerPrecision.jitter": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "services.sync.prefs.sync.privacy.resistFingerprinting.reduceTimerPrecision.microseconds": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "services.sync.prefs.sync.privacy.sanitize.sanitizeOnShutdown": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "services.sync.prefs.sync.privacy.trackingprotection.cryptomining.enabled": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "services.sync.prefs.sync.privacy.trackingprotection.enabled": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "services.sync.prefs.sync.privacy.trackingprotection.fingerprinting.enabled": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "services.sync.prefs.sync.privacy.trackingprotection.pbmode.enabled": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "services.sync.prefs.sync.privacy.userContext.enabled": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "services.sync.prefs.sync.privacy.userContext.newTabContainerOnLeftClick.enabled": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "services.sync.prefs.sync.security.default_personal_cert": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "services.sync.prefs.sync.services.sync.syncedTabs.showRemoteIcons": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "services.sync.prefs.sync.signon.autofillForms": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "services.sync.prefs.sync.signon.generation.enabled": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "services.sync.prefs.sync.signon.management.page.breach-alerts.enabled": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "services.sync.prefs.sync.signon.rememberSignons": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "services.sync.prefs.sync.spellchecker.dictionary": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "services.sync.prefs.sync.ui.osk.enabled": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "services.sync.syncedTabs.showRemoteIcons": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "sidebar.position_start": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "signon.management.page.breach-alerts.enabled": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "signon.management.page.fileImport.enabled": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "signon.management.page.os-auth.enabled": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "signon.management.page.sort": {
+    "default_value": "name",
+    "last_updated": "92.0"
+  },
+  "signon.management.page.vulnerable-passwords.enabled": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "signon.passwordEditCapture.enabled": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "signon.relatedRealms.enabled": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "signon.showAutoCompleteFooter": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "signon.showAutoCompleteImport": {
+    "default_value": "import",
+    "last_updated": "92.0"
+  },
+  "signon.suggestImportCount": {
+    "default_value": 3,
+    "last_updated": "92.0"
+  },
+  "svg.context-properties.content.allowed-domains": {
+    "default_value": "profile.accounts.firefox.com,profile.stage.mozaws.net",
+    "last_updated": "92.0"
+  },
+  "toolkit.backgroundtasks.defaultTimeoutSec": {
+    "default_value": 600,
+    "last_updated": "92.0"
+  },
+  "toolkit.coverage.enabled": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "toolkit.coverage.endpoint.base": {
+    "default_value": "https://coverage.mozilla.org",
+    "last_updated": "92.0"
+  },
+  "toolkit.lazyHiddenWindow": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "toolkit.pageThumbs.minHeight": {
+    "default_value": 190,
+    "last_updated": "92.0"
+  },
+  "toolkit.pageThumbs.minWidth": {
+    "default_value": 280,
+    "last_updated": "92.0"
+  },
+  "toolkit.startup.max_resumed_crashes": {
+    "default_value": 3,
+    "last_updated": "92.0"
+  },
+  "toolkit.telemetry.archive.enabled": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "toolkit.telemetry.bhrPing.enabled": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "toolkit.telemetry.firstShutdownPing.enabled": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "toolkit.telemetry.newProfilePing.enabled": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "toolkit.telemetry.shutdownPingSender.enabled": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "toolkit.telemetry.shutdownPingSender.enabledFirstSession": {
+    "default_value": false,
+    "last_updated": "92.0"
+  },
+  "toolkit.telemetry.updatePing.enabled": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "toolkit.winRegisterApplicationRestart": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "trailhead.firstrun.newtab.triplets": {
+    "default_value": "",
+    "last_updated": "92.0"
+  },
+  "view_source.tab": {
+    "default_value": true,
+    "last_updated": "92.0"
+  },
+  "webchannel.allowObject.urlWhitelist": {
+    "default_value": "https://content.cdn.mozilla.net https://support.mozilla.org https://install.mozilla.org",
+    "last_updated": "92.0"
+  },
+  "xpinstall.signatures.devInfoURL": {
+    "default_value": "https://wiki.mozilla.org/Addons/Extension_Signing",
+    "last_updated": "92.0"
+  },
+  "xpinstall.signatures.required": {
+    "default_value": true,
+    "last_updated": "92.0"
+  }
+}
