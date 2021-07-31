@@ -1350,7 +1350,8 @@
   },
   "browser.uidensity": {
     "default_value": 0,
-    "last_updated": "92.0"
+    "last_updated": "92.0",
+    "description": "Density of browser UI. 0: Default, 1: Compact, 2: Touch"
   },
   "browser.uitour.enabled": {
     "default_value": true,
@@ -1474,35 +1475,43 @@
   },
   "browser.urlbar.showSearchSuggestionsFirst": {
     "default_value": true,
-    "last_updated": "92.0"
+    "last_updated": "92.0",
+    "description": "Show search suggestions first"
   },
   "browser.urlbar.speculativeConnect.enabled": {
     "default_value": true,
-    "last_updated": "92.0"
+    "last_updated": "92.0",
+    "description": "Preload autocomplete suggestions in searchbar for a faster loading experience"
   },
   "browser.urlbar.sponsoredTopSites": {
     "default_value": false,
-    "last_updated": "92.0"
+    "last_updated": "92.0",
+    "description": "Include sponsored top sites and advertisments in the searchbar suggestions"
   },
   "browser.urlbar.suggest.bookmark": {
     "default_value": true,
-    "last_updated": "92.0"
+    "last_updated": "92.0",
+    "description": "Include bookmarks in the searchbar suggestions"
   },
   "browser.urlbar.suggest.calculator": {
     "default_value": false,
-    "last_updated": "92.0"
+    "last_updated": "92.0",
+    "description": "Include instant calculator in the searchbar suggestions"
   },
   "browser.urlbar.suggest.engines": {
     "default_value": true,
-    "last_updated": "92.0"
+    "last_updated": "92.0",
+    "description": "Include search engine suggestions in the searchbar suggestions"
   },
   "browser.urlbar.suggest.history": {
     "default_value": true,
-    "last_updated": "92.0"
+    "last_updated": "92.0",
+    "description": "Include history in the searchbar suggestions"
   },
   "browser.urlbar.suggest.openpage": {
     "default_value": true,
-    "last_updated": "92.0"
+    "last_updated": "92.0",
+    "description": "Include open tabs in the searchbar suggestions"
   },
   "browser.urlbar.suggest.quicksuggest": {
     "default_value": true,
@@ -1510,11 +1519,13 @@
   },
   "browser.urlbar.suggest.searches": {
     "default_value": true,
-    "last_updated": "92.0"
+    "last_updated": "92.0",
+    "description": "Include search suggestions in the searchbar suggestions"
   },
   "browser.urlbar.suggest.topsites": {
     "default_value": true,
-    "last_updated": "92.0"
+    "last_updated": "92.0",
+    "description": "Include Top Sites in the searchbar suggestions"
   },
   "browser.urlbar.switchTabs.adoptIntoActiveWindow": {
     "default_value": false,
@@ -1534,11 +1545,13 @@
   },
   "browser.warnOnQuit": {
     "default_value": true,
-    "last_updated": "92.0"
+    "last_updated": "92.0",
+    "description": "Warn the user on quitting the browser"
   },
   "browser.xr.warning.infoURL": {
     "default_value": "https://www.mozilla.org/%LOCALE%/firefox/xr/",
-    "last_updated": "92.0"
+    "last_updated": "92.0",
+    "description": "URL to get more information on WebVR in Firefox"
   },
   "browser.xul.error_pages.expert_bad_cert": {
     "default_value": false,
@@ -1554,7 +1567,8 @@
   },
   "browser.zoom.siteSpecific": {
     "default_value": true,
-    "last_updated": "92.0"
+    "last_updated": "92.0",
+    "description": "Enable/disable site-specific zoom. Setting to false will share the zoom level between all tabs."
   },
   "browser.zoom.updateBackgroundTabs": {
     "default_value": true,
@@ -1566,7 +1580,8 @@
   },
   "default-browser-agent.enabled": {
     "default_value": true,
-    "last_updated": "92.0"
+    "last_updated": "92.0",
+    "description": "Enable/disable the Default Browser Agent Windows service."
   },
   "devtools.aboutdebugging.collapsibilities.installedExtension": {
     "default_value": false,
@@ -2342,11 +2357,13 @@
   },
   "dom.push.enabled": {
     "default_value": true,
-    "last_updated": "92.0"
+    "last_updated": "92.0",
+    "description": "Enable/disable the push service in Firefox"
   },
   "dom.serviceWorkers.enabled": {
     "default_value": true,
-    "last_updated": "92.0"
+    "last_updated": "92.0",
+    "description": "Enable/disable service workers"
   },
   "dom.storage_access.enabled": {
     "default_value": true,
@@ -2362,7 +2379,8 @@
   },
   "extensions.experiments.enabled": {
     "default_value": false,
-    "last_updated": "92.0"
+    "last_updated": "92.0",
+    "description": "Enable WebExtension experiments"
   },
   "extensions.formautofill.reauth.enabled": {
     "default_value": false,
@@ -2406,11 +2424,13 @@
   },
   "extensions.pocket.api": {
     "default_value": "api.getpocket.com",
-    "last_updated": "92.0"
+    "last_updated": "92.0",
+    "description": "API for Pocket integration"
   },
   "extensions.pocket.enabled": {
     "default_value": true,
-    "last_updated": "92.0"
+    "last_updated": "92.0",
+    "description": "Enable/disable the Pocket integration in Firefox"
   },
   "extensions.pocket.loggedOutVariant": {
     "default_value": "control",
@@ -2434,7 +2454,8 @@
   },
   "extensions.pocket.site": {
     "default_value": "getpocket.com",
-    "last_updated": "92.0"
+    "last_updated": "92.0",
+    "description": "Frontend URL for Pocket integration"
   },
   "extensions.postDownloadThirdPartyPrompt": {
     "default_value": true,
@@ -2474,7 +2495,8 @@
   },
   "extensions.update.autoUpdateDefault": {
     "default_value": true,
-    "last_updated": "92.0"
+    "last_updated": "92.0",
+    "description": "If extensions should autoupdate"
   },
   "extensions.update.background.url": {
     "default_value": "https://versioncheck-bg.addons.mozilla.org/update/VersionCheck.php?reqVersion=%REQ_VERSION%&id=%ITEM_ID%&version=%ITEM_VERSION%&maxAppVersion=%ITEM_MAXAPPVERSION%&status=%ITEM_STATUS%&appID=%APP_ID%&appVersion=%APP_VERSION%&appOS=%APP_OS%&appABI=%APP_ABI%&locale=%APP_LOCALE%&currentAppVersion=%CURRENT_APP_VERSION%&updateType=%UPDATE_TYPE%&compatMode=%COMPATIBILITY_MODE%",
@@ -2482,15 +2504,18 @@
   },
   "extensions.update.enabled": {
     "default_value": true,
-    "last_updated": "92.0"
+    "last_updated": "92.0",
+    "description": "Enable/disable WebExtension updates"
   },
   "extensions.update.interval": {
     "default_value": 86400,
-    "last_updated": "92.0"
+    "last_updated": "92.0",
+    "description": "How often Firefox should check for extension updates"
   },
   "extensions.update.url": {
     "default_value": "https://versioncheck.addons.mozilla.org/update/VersionCheck.php?reqVersion=%REQ_VERSION%&id=%ITEM_ID%&version=%ITEM_VERSION%&maxAppVersion=%ITEM_MAXAPPVERSION%&status=%ITEM_STATUS%&appID=%APP_ID%&appVersion=%APP_VERSION%&appOS=%APP_OS%&appABI=%APP_ABI%&locale=%APP_LOCALE%&currentAppVersion=%CURRENT_APP_VERSION%&updateType=%UPDATE_TYPE%&compatMode=%COMPATIBILITY_MODE%",
-    "last_updated": "92.0"
+    "last_updated": "92.0",
+    "description": "URL for WebExtension updates"
   },
   "extensions.webextOptionalPermissionPrompts": {
     "default_value": true,
@@ -2506,7 +2531,8 @@
   },
   "first-startup.timeout": {
     "default_value": 30000,
-    "last_updated": "92.0"
+    "last_updated": "92.0",
+    "description": "How long Firefox should take to initially startup before timing out."
   },
   "fission.frontend.simulate-events": {
     "default_value": false,

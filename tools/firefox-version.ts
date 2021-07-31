@@ -1,0 +1,1 @@
+export const FIREFOX_PREFS_VERSION = "92.0"; // update this whenever you rerun the extraction script

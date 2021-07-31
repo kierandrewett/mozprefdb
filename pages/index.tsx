@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import absoluteUrl from 'next-absolute-url'
+import { FIREFOX_PREFS_VERSION } from '../tools/firefox-version'
 
 const Home = ({ prefs }: { prefs }) => {
   return (
@@ -16,20 +17,26 @@ const Home = ({ prefs }: { prefs }) => {
             Firefox Preferences Database
           </p>
 
-          <div className="field" style={{ maxWidth: "600px", margin: "0 auto", marginTop: "2rem" }}>
+          {/* <div className="field" style={{ maxWidth: "600px", margin: "0 auto", marginTop: "2rem" }}>
             <p className="control has-icons-left">
               <input className="input" placeholder="Search for a preference"></input>
               <span className="icon is-small is-left">
                 <i style={{ backgroundImage: `url(/icons/search.svg)`, width: "14px", height: "14px", backgroundSize: "cover" }}></i>
               </span>
             </p>
-          </div>
+          </div> */}
         </div>
       </section>
 
       <section className="hero has-text-centered">
         <div className="hero-body">
-          <table className="table" style={{ margin: "0 auto" }}>
+          <div style={{ display: "flex", flexDirection: "column", textAlign: "left", marginBottom: "2rem" }}>
+            <strong>Key:</strong>
+
+            <span>⚠ - Preference hasn't been updated in a while, it is probably deprecated.</span>
+          </div>
+
+          <table className="table" style={{ margin: "0 auto", width: "100%" }}>
             <thead>
               <tr>
                 <th style={{ minWidth: "500px" }}>
@@ -48,7 +55,14 @@ const Home = ({ prefs }: { prefs }) => {
                   <td>{data[1].description ? data[1].description : ( <i>
                     No description for this yet. <a href={"https://github.com/EnderDev/mozprefdb"}>Contribute?</a>
                   </i> )}</td>
-                  <td>{data[1].last_updated}</td>
+                  <td>
+                    {data[1].last_updated}
+                    {data[1].last_updated
+                      ? (parseInt(FIREFOX_PREFS_VERSION.split(".")[0]) - parseInt(data[1].last_updated.split(".")[0])) >= 3
+                        ? " ⚠"
+                        : ""
+                      : ""}
+                  </td>
                 </tr>
               ))}
             </tbody>
